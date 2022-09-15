@@ -10,7 +10,26 @@ function App() {
           <Dictionary />
         </main>
         <footer className=" App-footer">
-          <small> Open-source code by Joelle Zane </small>
+          <small>
+            {" "}
+            <a
+              href="https://github.com/Joellez/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+              title="Github"
+            >
+              Open-source code
+            </a>{" "}
+            by{" "}
+            <a
+              href="https://uk.linkedin.com/in/joellezane"
+              target="_blank"
+              rel="noreferrer"
+              title="LinkedIn"
+            >
+              Joelle Zane
+            </a>
+          </small>
         </footer>
       </div>
     </div>
