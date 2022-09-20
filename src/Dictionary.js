@@ -30,7 +30,7 @@ return (
       <form onSubmit={search}>
         <input type="search" placeholder="Search for a word..." onChange={handleKeywordChange} />
       </form>
-      <div className="hint">E.g: TEST yoga, happy, rainbow, ocean...</div>
+      <div className="hint">E.g: yoga, happy, rainbow, ocean...</div>
     </section>
     <Results results={results} />
   </div>
