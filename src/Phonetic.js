@@ -1,13 +1,14 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
+import "./Phonetic.css"
 
 export default function Phonetic(props) {
     
   return (
     <span className="Phonetic">
       <div className="row">
-        <div className="col-md-4"></div>
-        <div className="col-md-5">
+        <div className="col-lg-4"></div>
+        <div className="col-lg-5">
           <div className="audio-player">
             <ReactAudioPlayer
               src={props.phonetic.audio}
@@ -16,7 +17,7 @@ export default function Phonetic(props) {
             />
           </div>
         </div>
-        <div className="col-md-3 mt-md-3">
+        <div className="col-lg-3 mt-md-3 text">
          {props.phonetic.text}
         </div>
       </div>

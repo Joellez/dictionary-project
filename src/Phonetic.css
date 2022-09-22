@@ -1,0 +1,13 @@
+.Phonetic .audio-player {
+  padding-bottom: 5px;
+}
+
+.Phonetic .text {
+  opacity: 0.5;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+@media(min-width:1200px){
+   .Phonetic .audio-player{padding-left: 50px;}
+}
