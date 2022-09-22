@@ -17,7 +17,7 @@ export default function Phonetic(props) {
             />
           </div>
         </div>
-        <div className="col-lg-3 mt-md-3 text">
+        <div className="col-lg-3 mt-lg-3 text">
          {props.phonetic.text}
         </div>
       </div>
