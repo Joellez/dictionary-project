@@ -8,7 +8,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className=" App-footer">
+        <footer className=" App-footer pb-3">
           <small>
             {" "}
             <a
